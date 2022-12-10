@@ -1,0 +1,254 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 27, 29);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.particles-js-canvas
+{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.container_main
+{
+    visibility: hidden;
+    background-color: rgba(0,0,0,0);
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container_init
+{
+    background-color: rgba(0,0,0,0);
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container_main ul
+{
+    color: rgb(255,255,255);
+    list-style: none;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    user-select: none;
+}
+
+.container_main a[href] 
+{
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding: 5px;
+    user-select: none;
+}
+
+.container_main a[href]:hover
+{
+    color: rgb(170, 55, 255);
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.container_main img
+{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    filter: brightness(10%) sepia(1) saturate(100) hue-rotate(275deg) drop-shadow(0 0 10px #aa37ff);
+    position: relative;
+    user-select: none;
+}
+
+.title, .title:link, .title:active, .title:visited
+{
+    color: rgb(170, 55, 255) !important;
+    font-family: monospace;
+    font-style: normal;
+    font-size: 17px;
+    text-shadow: 0 0 8px #aa37ff;
+    user-select: none;
+}
+
+.box 
+{
+    background: rgb(8,8,8);
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 55, 255);
+    background-color: rgb(8,8,13);
+}
+
+.box h1
+{
+    color: rgb(170, 55, 255);
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 15px;
+}
+
+.box input[type="text"], .box input[type="password"], .box input[type="submit"]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 55, 255);
+    background-color: rgb(15,15,15);
+    font-family: monospace;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#fff;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 55, 255);
+    background-color: rgb(15,15,15);
+    font-family: monospace;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color:#fff;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    outline-width: 0;
+    box-sizing: border-box;
+}
+
+#particles-js
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+.main-button {
+    position: absolute;
+    margin: 0;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 999;
+}
+
+.main-button-suffix {
+    color: rgb(185, 107, 1);
+    text-shadow: 0 0 12px rgba(185, 107, 1, 0.5);
+}
+
+.link-div {
+    position: absolute;
+    margin: 0;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.link-button {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link-button:hover {
+    color: rgb(185, 107, 1);
+    text-shadow: 0 0 12px rgb(185, 107, 1);
+}
+
+.separator-button {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-div {
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.tos-text {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-button {
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(185, 107, 4);
+    text-shadow: 0 0 12px rgba(185, 107, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
